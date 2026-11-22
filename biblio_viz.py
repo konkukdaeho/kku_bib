@@ -187,7 +187,3 @@ elif menu == "번역서 비율":
     show_translation(df)
 else:
     show_publisher(df)
-
-st.divider()
-if st.checkbox("원본 데이터 일부 보기"):
-    st.dataframe(df.head(20))
